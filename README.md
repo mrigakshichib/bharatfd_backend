@@ -50,7 +50,14 @@ redis-cli ping
 # Response should be: PONG
 ```
 
-### **  Step 6: Start Django Development Server**
+### **  Step 6: Create Super User**
+
+```bash
+python manage.py createsuperuser
+```
+you can setup your own username and password then!
+
+### **  Step 7: Start Django Development Server**
 ```bash
 python manage.py runserver
 ```
